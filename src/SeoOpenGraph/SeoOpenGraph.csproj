@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jeferson Tenorio</Authors>
+    <Company />
+    <Description>Enables any web page to become a rich object in a social graph</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/mit-license.php</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jefersonsv/SeoOpenGraph</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jefersonsv/SeoOpenGraph</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.11.0" />
+    <PackageReference Include="Humanizer" Version="2.5.16" />
+  </ItemGroup>
+
+</Project>
